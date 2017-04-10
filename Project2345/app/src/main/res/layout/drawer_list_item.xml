@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView"
+            android:background="@android:color/darker_gray"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/list_text_item"
+            android:textSize="18sp"
+            style="@style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+            android:paddingBottom="@dimen/padding_menu_item"
+            android:paddingTop="@dimen/padding_menu_item"
+            android:paddingLeft="@dimen/padding_menu_item_start"
+            android:paddingStart="@dimen/padding_menu_item_start"
+            android:textColorHighlight="#ff0000"
+            android:textStyle="italic"
+            android:textIsSelectable="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/colorMenu"
+        android:layout_marginLeft="@dimen/margin_drawer_list_item"
+        android:layout_marginRight="@dimen/margin_drawer_list_item"
+        android:layout_height="2dp"></LinearLayout>
+
+</LinearLayout>

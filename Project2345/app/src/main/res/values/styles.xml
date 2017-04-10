@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="info_task_callbtn">
+        <item name="android:background">@android:color/holo_green_dark</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <style name="text_and_bg">
+        <item name="android:background">#2b323d</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="edittext">
+        <item name="android:background">@android:color/holo_blue_dark</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+    </style>
+</resources>

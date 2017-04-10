@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_menu_item">10dp</dimen>
+    <dimen name="padding_menu_item_start">10dp</dimen>
+    <dimen name="padding_task_info_view">10dp</dimen>
+    <dimen name="margin_drawer_list_item">20dp</dimen>
+    <dimen name="title_size">35sp</dimen>
+    <dimen name="title_add_task_size">20sp</dimen>
+</resources>
